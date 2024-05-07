@@ -1,0 +1,9 @@
+@import url("~leaflet/dist/leaflet.css");
+.leaflet-container {
+  width: 100%;
+  height: 110vh;
+  position: relative; /* Positionnez la carte de façon absolue par rapport à la navbar */
+  top: 56%; /* Placez la carte au milieu verticalement */
+  left: 52%; /* Placez la carte au milieu horizontalement */
+  transform: translate(-50%, -50%); 
+}
